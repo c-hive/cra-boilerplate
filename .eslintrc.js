@@ -28,4 +28,7 @@ module.exports = {
     ],
     "import/no-anonymous-default-export": "error",
   },
+  "env": {
+    "browser": true,
+  },
 };
