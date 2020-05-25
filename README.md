@@ -1,18 +1,12 @@
-# JavaScript Boilerplate
+# Create React App Boilerplate
 
-#### A boilerplate that sets the grounds for any kind of JS development. More generic things, less specific things.
+#### Extended version of the generic [js-boilerplate](https://github.com/c-hive/js-boilerplate) that sets the ground for a Create React App project.
 
 It has
-- formatting
-- linting
-- editor options
-- CI via native GitHub Actions
-- pre-commit hook
-- gitignore
-- [~~npmignore~~ npm files](https://github.com/c-hive/guides/blob/2d3e41b73515a571dd78576e02d2fd15fe786d9e/js/package.md#what-to-include)
-- [dependency comments](https://github.com/c-hive/guides/blob/2d3e41b73515a571dd78576e02d2fd15fe786d9e/js/best-practices.md#comment-dependencies-in-the-packagejson)
-- dependency security fixes
-- npm version requirement [to avoid `package-lock` ping-pong](https://github.com/c-hive/guides/blob/24ce093e59f89374ed2bf0a2e1fc5c45e5490044/js/best-practices.md#specify-npm-version-requirements-to-avoid-package-lock-ping-pong)
+- everything [js-boilerplate](https://github.com/c-hive/js-boilerplate) has
+- ESLint rules for React
+- ESLint rules for Jest
+- Yarn
 
 ## Conventions
 
