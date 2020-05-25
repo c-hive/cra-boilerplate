@@ -8,6 +8,14 @@ It has
 - ESLint rules for Jest
 - Yarn
 
+## Usage
+
+- Follow instruction in [https://github.com/facebook/create-react-app](create-react-app)
+- Manually merge `package.json`
+- Overwrite other files
+- `yarn lint:fix`
+- Fix remaining issues manually
+
 ## Conventions
 
 This project follows [C-Hive guides](https://github.com/c-hive/guides) for code style, way of working and other development concerns.
