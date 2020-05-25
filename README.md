@@ -3,7 +3,7 @@
 #### Extended version of the generic [js-boilerplate](https://github.com/c-hive/js-boilerplate) that sets the ground for a Create React App project.
 
 It has
-- everything [js-boilerplate](https://github.com/c-hive/js-boilerplate) has
+- everything from [js-boilerplate](https://github.com/c-hive/js-boilerplate)
 - ESLint rules for React
 - ESLint rules for Jest
 - Yarn
