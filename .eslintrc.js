@@ -27,6 +27,12 @@ module.exports = {
       },
     ],
     "import/no-anonymous-default-export": "error",
+    "import/no-extraneous-dependencies": [
+      "error",
+      {
+        "devDependencies": ["**/*.test.js", "src/setupTests.js"]
+      },
+    ],
   },
   "env": {
     "browser": true,
