@@ -29,7 +29,7 @@ module.exports = {
     "import/no-extraneous-dependencies": [ // https://stackoverflow.com/q/44939304/2771889
       "error",
       {
-        "devDependencies": ["**/*.test.js", "**/*.test.jsx"]
+        "devDependencies": ["**/*.test.js", "**/*.test.jsx", "src/setupTests.js"]
       },
     ],
   },
