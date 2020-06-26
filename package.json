@@ -1,10 +1,11 @@
 {
-  "name": "",
-  "version": "0.1.0",
-  "description": "",
-  "main": "",
+  "name": "cra-boilerplate",
+  "version": "1.0.0",
   "scripts": {
-    "test": "echo 'No test framework configured'",
+    "start": "react-scripts start",
+    "build": "react-scripts build",
+    "test": "react-scripts test --watchAll=false",
+    "eject": "react-scripts eject",
     "lint": "eslint . --no-error-on-unmatched-pattern",
     "lint:fix": "eslint . --no-error-on-unmatched-pattern --fix"
   },
@@ -17,7 +18,14 @@
   "author": "",
   "license": "MIT",
   "//dependencies": {},
-  "dependencies": {},
+  "dependencies": {
+    "@testing-library/jest-dom": "^4.2.4",
+    "@testing-library/react": "^9.3.2",
+    "@testing-library/user-event": "^7.1.2",
+    "react": "^16.13.1",
+    "react-dom": "^16.13.1",
+    "react-scripts": "3.4.1"
+  },
   "//devDependencies": {
     "eslint*": "code style",
     "pre-commit": "run scripts before each commit",
