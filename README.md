@@ -11,6 +11,7 @@ It has
 ## Usage
 
 - Follow instruction in [https://github.com/facebook/create-react-app](create-react-app)
+- `yarn add --dev eslint eslint-config-airbnb-base eslint-config-prettier eslint-plugin-import eslint-plugin-jest eslint-plugin-prettier eslint-plugin-react prettier`
 - Manually merge `package.json`
 - Overwrite other files
 - `yarn lint:fix`
