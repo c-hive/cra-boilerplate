@@ -4,7 +4,7 @@
   "scripts": {
     "start": "react-scripts start",
     "build": "react-scripts build",
-    "test": "react-scripts test --watchAll=false",
+    "test": "react-scripts test --watchAll=false --passWithNoTests",
     "eject": "react-scripts eject",
     "lint": "eslint . --no-error-on-unmatched-pattern",
     "lint:fix": "eslint . --no-error-on-unmatched-pattern --fix"
@@ -32,13 +32,10 @@
     "prettier": "code formatting"
   },
   "devDependencies": {
-    "eslint": "^6.8.0",
     "eslint-config-airbnb-base": "^14.0.0",
     "eslint-config-prettier": "^4.2.0",
-    "eslint-plugin-import": "^2.20.1",
     "eslint-plugin-jest": "^23.13.1",
     "eslint-plugin-prettier": "^3.1.2",
-    "eslint-plugin-react": "^7.20.0",
     "pre-commit": "^1.2.2",
     "prettier": "^1.19.1"
   },
